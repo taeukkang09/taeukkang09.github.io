@@ -1,95 +1,265 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-	<!-- External CSS -->
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<!-- Font Awesome -->
-	<script src="https://kit.fontawesome.com/64f03eab00.js" crossorigin="anonymous"></script>
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<!-- Favicons -->
-	<link rel="icon" type="text/css" href="favicons/favicon.ico">
-
-	<title>Taeuk Kang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Taeuk Kang</title>
+    <!-- Favicon -->
+    <link href="assets/images/favicon.png" rel="shortcut icon">
+    <!-- CSS -->
+    <link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+    <link href="assets/plugins/sal/sal.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <!-- Fonts/Icons -->
+    <link href="assets/plugins/font-awesome/css/all.css" rel="stylesheet">
+    <link href="assets/plugins/themify/themify-icons.min.css" rel="stylesheet">
+    <link href="assets/plugins/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 </head>
-<body>
 
-	<!-- Title Page Section -->
-	<section id="title">
+<body data-preloader="1">
 
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#">Taeuk Kang</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+    <!-- Header -->
+    <div class="header right absolute-light sticky-autohide">
+        <div class="container">
+            <!-- Logo -->
+            <div class="header-logo">
+                <h3><a href="#">TK</a></h3>
+            </div>
+            <!-- Menu -->
+            <div class="header-menu">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#title">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link last-nav-link" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item last-nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+            <!-- Menu Toggle -->
+            <button class="header-toggle">
+                <span></span>
+            </button>
+        </div><!-- end container -->
+    </div>
+    <!-- end Header -->
 
-			<div class="row">
-				<div class="col-lg-6">
-					<h1 class="title-heading">Hi, my name is Taeuk.</h1>
-				</div>
-				<div class="col-lg-6">
-					<img class="title-image" src="images/title-image1.jpg">
-				</div>
-			</div>
+    <!-- Home section -->
+    <div id="home" class="section-fullscreen bg-image parallax" data-bg-src="assets/images/background.jpg">
+        <div class="bg-black-05">
+            <div class="container text-center">
+                <div class="position-middle">
+                    <div class="row">
+                        <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                            <h1 class="font-weight-extra-light">Hello there!<br><span class="font-weight-normal">I'm Taeuk Kang</span></h1>
+                        </div>
+                    </div><!-- end row -->
+                </div>
+                <div class="position-bottom icon-2xl margin-bottom-20">
+                    <a href="#about"><i class="ti-arrow-down"></i></a>
+                </div>
+            </div><!-- end container -->
+        </div><!-- end bg-black-* -->
+    </div>
+    <!-- end Home section -->
 
-			<i class="fas fa-angle-down fa-3x down-icon"></i>
-		</div>
+    <!-- About section -->
+    <div id="about" class="border-bottom section-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="margin-bottom-70">
+                        <h2 class="font-weight-light margin-0">About me</h2>
+                        <div class="divider-zigzag divider-zigzag-color-black-03">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <img class="border-radius-30" src="assets/images/profilepic.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="margin-bottom-30">
+                        <h3 class="font-weight-light">Hi! My name is Taeuk Kang, and I'm currently a Computer Engineering student at the Univeristy of Toronto.</h3>
+                        <p>I am passionate about creating cool, useful software that can really benefit people other than myself, and am always striving to learn and improve myself every day. Right
+                            now, I am really interested in projects involving full-stack development, and machine learning.</p>
+                        <p>Outside of school, I love to spend my time outdoors and doing stuff like playing soccer, hiking, and camping with my friends and family. Also,
+                            I enjoy listening to good music and taking photos/videos of everything around me.
+                        </p>
+                        <p>Currently I am looking for Summer 2021 internship opportunities, so if you know of any cool opportunities or just want to ask me a question, please feel free to contact me!
+                        </p>
+                    </div>
 
-	</section>
+                    <a class=" margin-right-20 button button-lg button-reveal-right-dark" href="assets/Taeuk-Kang.pdf">
+                        <i class="ti-arrow-right"></i><span>Resume</span>
+                    </a>
 
-	<!-- About Section -->
-	<section id="about">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6">
-					<img class="about-image" src="images/palm-tree.jpg">
-				</div>
-				<div class="col-lg-6">
-					<h2>About me</h2>
-					<p>Hey there! My name is Taeuk Kang, and I am currently a 2nd year Computer Engineering Student at the University of Toronto. I am passionate about creating interesting software that can really benefit people besides myself, and am always striving to learn and improve myself every day. Outside of school, I love to play soccer, listen to good music, take photos, as well as go camping and exploring with my friends and family.</p>
-					<p>Currently I am very interested in projects involving web / mobile development and machine learning. If you know of any cool opportunities, or just want to ask me a question, please feel free to get in touch!</p>
-				</div>
-			</div>
+                    <a class="button button-lg button-reveal-right-outline-dark" href="#contact">
+                        <i class="ti-arrow-right"></i><span>Contact me</span>
+                    </a>
 
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+    <!-- end About section -->
 
-		</div>
+    <!-- Portfolio section -->
+    <div id="projects" class="section border-bottom">
+        <div class="container">
+            <div class="margin-bottom-70">
+                <div class="row text-center">
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <h2 class="font-weight-light">My Projects</h2>
+                        <p>A collection of side projects that I made during my free time. If you want to see more, check out my <a class="button-text-2"
+                                href="https://github.com/taeukkang09">Github!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio-wrapper spacing-20">
+                <!-- Portfolio box 1 -->
+                <div class="col-12 col-md-6 portfolio-item category-1">
+                    <div class="portfolio-box">
+                        <div class="portfolio-img">
+                            <img src="assets/images/covid19.jpg" alt=""><!-- Image source -->
+                        </div>
+                        <a href="https://github.com/taeukkang09/covid19Tracker"></a><!-- Portfolio Single link -->
+                        <div class="portfolio-title">
+                            <div>
+                                <h5 class="font-weight-normal">COVID-19 Tracker</h5>
+                                <span>A COVID-19 tracker application showing current number of infections and deaths around the world.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio box 2 -->
+                <div class="col-12 col-md-6 portfolio-item category-2">
+                    <div class="portfolio-box">
+                        <div class="portfolio-img">
+                            <img src="assets/images/zoomclone.jpg" alt=""><!-- Image source -->
+                        </div>
+                        <a href="https://github.com/taeukkang09/ZoomClone"></a><!-- Portfolio Single link -->
+                        <div class="portfolio-title">
+                            <div>
+                                <h5 class="font-weight-normal">Zoom Clone</h5>
+                                <span>A Zoom clone with video conferencing and real-time messaging using Node.js, socket.IO, and WebRTC.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio box 3 -->
+                <div class="col-12 col-md-6 portfolio-item category-3">
+                    <div class="portfolio-box">
+                        <div class="portfolio-img">
+                            <img src="assets/images/JARVIS.jpg" alt=""><!-- Image source -->
+                        </div>
+                        <a href="https://github.com/taeukkang09/JARVIS"></a><!-- Portfolio Single link -->
+                        <div class="portfolio-title">
+                            <div>
+                                <h5 class="font-weight-normal">JARVIS</h5>
+                                <span>A virtual speech assistant that can help automate everyday tasks.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio box 4 -->
+                <div class="col-12 col-md-6 portfolio-item category-1">
+                    <div class="portfolio-box">
+                        <div class="portfolio-img">
+                            <img src="assets/images/personalwebsite.jpg" alt=""><!-- Image source -->
+                        </div>
+                        <a href="https://github.com/taeukkang09/taeukkang09.github.io"></a><!-- Portfolio Single link -->
+                        <div class="portfolio-title">
+                            <div>
+                                <h5 class="font-weight-normal">Personal website</h5>
+                                <span>A portfolio website to showcase my experience. Created using HTML, CSS, Javascript, and Bootstrap.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end row/portfolio-wrapper -->
+            <!-- button -->
+            <div class="text-center margin-top-70">
+                <a class="button button-lg button-reveal-right-dark" href="https://github.com/taeukkang09">
+                    <i class="ti-arrow-right"></i><span>More projects</span>
+                </a>
+            </div>
+        </div><!-- end container -->
+    </div>
+    <!-- end Portfolio section -->
 
-	</section>
+    <!-- Contact section -->
+    <div id="contact" class="section-lg">
+        <div class="container">
+            <div class="margin-bottom-70">
+                <div class="row text-center">
+                    <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <h6 class="font-family-tertiary font-small font-weight-normal uppercase">Contact</h6>
+                        <h2>Get In Touch</h2>
+                        <p>Currently, I'm looking for Summer 2021 internship opportunities. If you have any questions, or would like to chat, feel free to contact me!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <!-- Icon text box 1 -->
+                <div class="col-12 col-sm-6 col-md-3 icon-3xl">
+                    <i class="ti ti-email text-dark margin-bottom-20"></i>
+                    <h6 class="font-weight-normal margin-0"><a class="button-text-2" href="mailto: taeuk.kang@mail.utoronto.ca">taeuk.kang@mail.utoronto.ca</a></h6>
+                </div>
+                <!-- Icon text box 2 -->
+                <div class="col-12 col-sm-6 col-md-3 icon-3xl">
+                    <i class="ti ti-mobile text-dark margin-bottom-20"></i>
+                    <h6 class="font-weight-normal margin-0">+(1) 250-718-9573</h6>
+                </div>
+                <!-- Icon text box 3 -->
+                <div class="col-12 col-sm-6 col-md-3 icon-3xl">
+                    <i class="ti-linkedin text-dark margin-bottom-20"></i>
+                    <h6 class="font-weight-normal margin-0"><a class="button-text-2" href="https://www.linkedin.com/in/taeuk-kang/">LinkedIn</a></h6>
+                </div>
+                <!-- Icon text box 4 -->
+                <div class="col-12 col-sm-6 col-md-3 icon-3xl">
+                    <i class="ti ti-github text-dark margin-bottom-20"></i>
+                    <h6 class="font-weight-normal margin-0"><a class="button-text-2" href="https://github.com/taeukkang09">Github</a></h6>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+    <!-- end Contact section -->
 
+    <footer>
+        <div class="section bg-dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 text-center">
+                        <p class="margin-top-10">&copy; 2020 Taeuk Kang, All Rights Reserved.</p>
+                    </div>
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div>
+    </footer>
 
-	<script type="text/javascript" src="script.js"></script>
+    <!-- Scroll to top button -->
+    <div class="scrolltotop">
+        <a class="button-circle button-circle-sm button-circle-dark" href="#"><i class="ti-arrow-up"></i></a>
+    </div>
+    <!-- end Scroll to top button -->
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- ***** JAVASCRIPTS ***** -->
+    <script src="assets/plugins/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="assets/plugins/plugins.js"></script>
+    <script src="assets/js/functions.js"></script>
 </body>
+
 </html>
