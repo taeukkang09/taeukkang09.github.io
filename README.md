@@ -16,3 +16,8 @@ Note: this repo is a clone of https://github.com/varadbhogayata/varadbhogayata.g
 ![Projects page](screenshots/projects.png)
 ![Skills page](screenshots/skills.png)
 ![Education page](screenshots/education.png)
+
+## Actiivty 3:
+
+![Theme change 1](screenshots/theme1.png)
+![Theme change 2](screenshots/theme2.png)
