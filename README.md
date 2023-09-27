@@ -5,3 +5,14 @@ Note: this repo is a clone of https://github.com/varadbhogayata/varadbhogayata.g
 ## Activity 1:
 
 ![Initial commit](screenshots/1.png)
+
+## Actiivty 2:
+
+![Repo screenshot](screenshots/repo.png)
+
+![Home page](screenshots/home-page.png)
+![About page](screenshots/about.png)
+![Experience page](screenshots/experience.png)
+![Projects page](screenshots/projects.png)
+![Skills page](screenshots/skills.png)
+![Education page](screenshots/education.png)
