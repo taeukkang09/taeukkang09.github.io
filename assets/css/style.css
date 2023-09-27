@@ -139,7 +139,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #f78d8d;
 }
 
 /* main blockqoute */
@@ -236,7 +236,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: rgb(247, 141, 141);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -605,7 +605,7 @@ small {
   }
   nav a.button-collapse,
   nav a.button-collapse i {
-    color: #009688;
+    color: #f78d8d;
     height: 56px;
     line-height: 56px;
   }
